@@ -5,7 +5,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_REQUEST['email'];
     $mensagem = $_REQUEST['mensagem'];
   
-    echo "<h1>Dados Enviados:</h1>";
     echo "<p>Nome: $nome</p>";
     echo "<p>Telefone: $telefone</p>";
     echo "<p>Email: $email</p>";
