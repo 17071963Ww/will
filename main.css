@@ -45,7 +45,7 @@ form label {
     font-size: 1em;
 }
 
-form input[type="submit"] {
+.input {
     background-color: #4CAF50;
     color: white;
     border: none;
