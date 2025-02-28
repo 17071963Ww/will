@@ -9,5 +9,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo "<p>Telefone: $telefone</p>";
     echo "<p>Email: $email</p>";
     echo "<p>Mensagem: $mensagem</p>";
+
+    $headers = apache_request_headers();
+    $ApacheHeaders = '';
+    foreach ($headers as $header => $value) {
+        $ApacheHeaders .= "$header: $value <br />\n";
+    }
+    echo $ApacheHeaders;
+
+    echo "metodo: <br>";
+
+    echo $_SERVER['REQUEST_METHOD'];
+
 }
 ?>

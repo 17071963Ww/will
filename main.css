@@ -46,7 +46,7 @@ form label {
 }
 
 .input {
-    background-color: #4CAF50;
+    background-color: #630202;
     color: white;
     border: none;
     padding: 10px;
@@ -57,6 +57,4 @@ form label {
     margin-top: 20px;
 }
 
-form input[type="submit"]:hover {
-    background-color: #45a049;
-}
+
